@@ -1,0 +1,134 @@
+/* common */
+main{
+    place-items:center;
+}
+/* media-query */
+@media only screen and (max-width: 600px) {
+ .landing-1{
+     grid-template-columns: repeat(1,1fr);
+ }
+ .Focus-line{
+     font-size: 24px;
+     margin-left: 0px;
+ }
+ .players{
+     grid-template-columns: repeat(1, 1fr);
+     margin-left: 0px;
+ }
+ .mega{
+     grid-template-columns: repeat(1, 1fr);
+     margin-left: 0px;
+ }
+ .imge .icon .coppyright{
+     margin-right: 0px;
+ }
+
+  }
+/* 1st-part */
+.landing-1{
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 70px;
+}
+.Focus-line{
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    font-size: 64px;
+    margin: 22px;
+    margin-left: 156px;
+}
+.right{
+    transition: 3s;
+}
+.right:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(30deg);
+}
+.right img{
+    width: 556px;
+    height: 438px;
+}
+.left a{
+    background-color:rgba(224, 44, 109, 1);
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-left: 156px;
+   
+}
+/* players-blog */
+.center{
+  place-items:center;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    margin-left: 260px;
+}
+.player{
+    background-color: white;
+    box-shadow: 10px 10px 20px lightgray;
+    width: 300px;
+    height: 474px;
+    padding: 10px;
+    margin-bottom: 26px;
+    margin-right: 0px;
+   
+}
+.player h3{
+    font-size: 28px;
+}
+.player img{
+    width: 300px;
+    height: 256px;
+}
+/* Highlights */
+.Mega{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 165px;
+    margin-left: 260px;
+    
+}
+.Highlights{
+    margin-right: 66px;
+}
+.Highlights h2{
+    font-size: 64px;
+    margin-bottom: 8px;
+}
+.Highlights-img img{
+    width: 567px;
+    height: 427px;
+}
+.Highlights p{
+    margin-bottom: 25px;
+}
+.Highlights a{
+    background-color:rgba(224, 44, 109, 1);
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+/* 4rt-part */
+footer{
+    margin-top: 160px;
+    width: 484px;
+    height: 213px;
+   margin-left: 734px;
+}
+.imge{
+    place-items:center;
+}
+.imge img{
+    width: 484px;
+    height: 110px;
+}
+.icon{
+    margin: 160px;
+}
+.coppyright{
+    margin-left: 130px;
+}
